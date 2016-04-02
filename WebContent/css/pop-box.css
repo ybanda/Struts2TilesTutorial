@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+ #edit-profile {
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e0f0ff), color-stop(1, #a3d1ff) );
+	background:-moz-linear-gradient( center top, #e0f0ff 5%, #a3d1ff 100% );
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0f0ff', endColorstr='#a3d1ff');
+	background-color:#e0f0ff;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #c7e3ff;
+	-webkit-box-shadow: rgba(0, 0, 0, .6) 0px 2px 12px;
+	-moz-box-shadow:  rgba(0, 0, 0, .6) 0px 2px 12px;
+	padding: 14px 22px;
+	width: 400px;
+	position: relative;
+	display:none;
+        
+    }
+#edit-profile #edit-profile_form {
+	margin-top: 13px;
+}
+#edit-profile label {
+	display: block;
+	margin-bottom: 10px;
+	color: #536376;
+	font-size: .9em;
+}
+#edit-profile label input {
+	display: block;
+	width: 393px;
+	height: 31px;
+	background-position: -201px 0;
+	padding: 2px 8px;
+	font-size: 1.2em;
+	line-height: 31px;
+}
+.try {
+	width: 93px;
+	height: 31px;
+	background-position: -30px -156px;
+}
+.try:hover {
+	background-position: -30px -187px;
+}
+.try:active {
+	background-position: -30px -218px;
+}
