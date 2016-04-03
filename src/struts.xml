@@ -12,5 +12,10 @@
 	        <result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult"/>
 	        <result-type name="stream" class="org.apache.struts2.dispatcher.StreamResult"/>
 	    </result-types> 
+
+	
+        <action name="i18n_test" class="com.struts2Tiles.tutorial.actions.I18NAction">
+        	<result name="success">pages/i18n.jsp</result>
+        </action>
 	</package>
 </struts>
